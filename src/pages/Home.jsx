@@ -15,16 +15,16 @@ export default function Home() {
       <section className="hero page-shell">
         <div className="hero-copy">
           <p className="eyebrow">
-            Data Analyst • Software Developer • AI Builder
+            Data Analyst • Software Developer • Public Servant
           </p>
 
           <h1>
-            Turning complex data and ideas into useful digital products.
+            Turning complex data into useful digital products for Ontarians.
           </h1>
 
           <p className="hero-text">
             Welcome to my portfolio. I’m Sadya Hossain Sinthi, a
-            Data Analyst working for the Government of Ontariowith experience across
+            Data Analyst working for the Government of Ontario with experience across
             data analytics, software development, machine learning and
             quality assurance.
           </p>
