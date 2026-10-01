@@ -1,96 +1,94 @@
 /**
- * Centralized portfolio data keeps the page components easy to read and update.
- * Content can be edited here without changing presentation logic in each page.
+ * Central portfolio data for project and education information.
+ * Keeping reusable content in one file makes the application
+ * easier to maintain and keeps page components readable.
  */
+
 export const projects = [
   {
-    title: 'SadyaAI',
-    image: '/projects/sadyaai.svg',
-    technologies: 'Node.js, Next.js, MongoDB, Clerk, Vercel, DeepSeek API, Svix Webhooks, Tailwind CSS',
-    role: 'Full-stack developer',
+    title: 'Sflix – Full Stack Netflix Clone',
+
+    image: '/projects/project1.png',
+
+    technologies:
+      'React JS, Firebase, The Movie Database (TMDB) API',
+
+    role: 'Developer',
+
     description:
-      'Built and deployed a full-stack AI chatbot application with secure authentication, API integration and a modern responsive interface.',
+      'Developed a Netflix-inspired web application that allows users to explore movie and entertainment content through a modern streaming-style interface.',
+
     outcome:
-      'Delivered an end-to-end AI web application that demonstrates full-stack architecture, third-party API integration and cloud deployment.',
+      'Built a responsive application using React JS, integrated Firebase services, and connected to The Movie Database API to retrieve and display movie information.',
+
+    link: 'https://sflix-eight.vercel.app/login',
+
+    linkText: 'View Live Project',
   },
+
   {
-    title: 'Imagify',
-    image: '/projects/imagify.svg',
-    technologies: 'MERN Stack, ClipDrop API, Render, Stripe',
-    role: 'Full-stack developer',
+    title: 'SadyaAI – Full Stack AI Chatbot',
+
+    image: '/projects/project2.png',
+
+    technologies:
+      'Node.js, Next.js, MongoDB, Clerk, Vercel, DeepSeek API, Svix Webhooks, Tailwind CSS',
+
+    role: 'Full-Stack Developer',
+
     description:
-      'Developed an AI-powered text-to-image SaaS application that generates images from text prompts and uses a credit-based workflow.',
+      'Developed a full-stack AI chatbot application that provides intelligent and interactive responses through advanced API integration.',
+
     outcome:
-      'Integrated AI image generation and secure payment functionality into a complete user-facing application.',
+      'Created and deployed an end-to-end AI application with authentication, database integration, responsive design, webhook functionality and cloud deployment.',
+
+    link: 'https://sadya-main.vercel.app/',
+
+    linkText: 'View Live Project',
   },
+
   {
-    title: 'Rendezvous',
-    image: '/projects/rendezvous.svg',
-    technologies: 'MongoDB, Express, React, Socket.io, Material UI, Axios, Bcrypt, Render',
-    role: 'Full-stack developer',
+    title: 'Rendezvous – Full Stack Video Calling Application',
+
+    image: '/projects/project3.png',
+
+    technologies:
+      'MongoDB, Express JS, React JS, Socket.io, Material UI, Axios, Bcrypt, Render',
+
+    role: 'Full-Stack Developer',
+
     description:
-      'Developed a real-time video calling application with screen sharing and secure user authentication.',
+      'Developed a real-time video calling application with screen-sharing functionality and secure user authentication.',
+
     outcome:
-      'Created a working real-time communication platform using Socket.io and a MERN-based architecture.',
-  },
-  {
-    title: 'Breast Cancer Prediction System',
-    image: '/projects/prediction.svg',
-    technologies: 'Python, PyTorch, Flask, Scikit-learn, Power BI, HTML/CSS',
-    role: 'Machine learning developer',
-    description:
-      'Created a binary-classification neural-network solution and a Flask interface for entering diagnostic features and receiving risk predictions.',
-    outcome:
-      'Combined machine learning, a web interface and Power BI visual insights into an accessible prediction prototype.',
+      'Created a full-stack communication platform using Socket.io for real-time functionality and the MERN stack for application development.',
+
+    link: 'https://github.com/sadyasinthi1/video-calling-software',
+
+    linkText: 'View on GitHub',
   },
 ];
 
+
+/**
+ * Education and professional qualifications.
+ */
 export const education = [
   {
-    credential: 'Software Engineering Technology - Advanced Diploma',
-    institution: 'Centennial College, Toronto, Ontario',
-    dates: 'January 2023 - Present',
-    detail: 'Program focus includes software development, databases, QA/testing, web development and mobile development.',
-  },
-  {
-    credential: 'Certificate - French Language Studies',
-    institution: 'Alliance Française de Dhaka, Bangladesh',
-    dates: 'May 2018 - May 2021',
-    detail: 'French language studies with a focus on communication and language proficiency.',
-  },
-  {
-    credential: 'Master of Business Administration',
-    institution: 'University of Dhaka, Bangladesh',
-    dates: 'June 2012 - June 2014',
-    detail: 'Graduate-level business education supporting strong communication and business-analysis skills.',
-  },
-  {
-    credential: 'BSc - Electronics & Telecommunications Engineering',
-    institution: 'East West University, Bangladesh',
-    dates: 'May 2008 - April 2012',
-    detail: 'Engineering foundation in electronics, telecommunications and technical problem solving.',
-  },
-];
+    credential: 'Software Engineering Technician (AI Program)',
+    institution: 'Centennial College',
+    dates: '2022',
 
-export const services = [
-  {
-    icon: '📊',
-    title: 'Data Analytics & Visualization',
-    description: 'Data preparation, SQL analysis, dashboards and insight communication using tools such as Power BI and Tableau.',
+    detail:
+      'Focused on software development, artificial intelligence, programming, databases, web development and application development.',
   },
+
   {
-    icon: '💻',
-    title: 'Full-Stack Web Development',
-    description: 'Responsive web applications using React, JavaScript, Node.js, REST APIs and database technologies.',
-  },
-  {
-    icon: '🤖',
-    title: 'AI & Machine Learning Prototyping',
-    description: 'Machine-learning prototypes, predictive models and AI-enabled applications using Python and modern ML libraries.',
-  },
-  {
-    icon: '✅',
-    title: 'QA & Testing Support',
-    description: 'Functional testing, defect identification, validation workflows and quality-focused support for software projects.',
+    credential: 'Certificate in French Language Studies',
+    institution: 'Alliance Française de Dhaka',
+    dates: '2018 – 2021',
+
+    detail:
+      'Completed French language studies with a focus on written and verbal communication.',
   },
 ];
