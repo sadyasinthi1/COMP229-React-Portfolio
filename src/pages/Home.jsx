@@ -24,7 +24,7 @@ export default function Home() {
 
           <p className="hero-text">
             Welcome to my portfolio. I’m Sadya Hossain Sinthi, a
-            Toronto-based technology professional with experience across
+            Data Analyst working for the Government of Ontariowith experience across
             data analytics, software development, machine learning and
             quality assurance.
           </p>
@@ -53,14 +53,13 @@ export default function Home() {
           <p className="eyebrow">Mission Statement</p>
 
           <h2>
-            Build technology that makes information easier to understand
-            and act on.
+            At Ontario Public Service, I build data, analytics, and AI-driven solutions that make information more accessible, understandable, and actionable for teams across government.
           </h2>
 
           <p>
             I combine technical development with a practical business
             perspective to create accessible, reliable and user-focused
-            solutions.
+            solutions for Ontarians.
           </p>
         </aside>
       </section>

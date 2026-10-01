@@ -22,7 +22,7 @@ export default function About() {
         <div className="about-copy">
           <h2>My background</h2>
           <p>
-            I have a software engineering foundation and hands-on experience in data analytics, machine learning, full-stack development and QA/testing. My work spans technical development and business-facing communication, helping me translate complex information into practical digital solutions.
+            I am currently working as a Data Analyst for Government of Ontario. I have a software engineering foundation and hands-on experience in data analytics, machine learning, full-stack development and QA/testing. My work spans technical development and business-facing communication, helping me translate complex information into practical digital solutions.
           </p>
           <p>
             I have built AI-enabled applications, predictive machine-learning prototypes, real-time web applications and analytics solutions. I’m especially interested in projects where data, software and user experience come together to solve real problems.
