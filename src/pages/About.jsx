@@ -16,9 +16,7 @@ export default function About() {
             src="/profile-placeholder.jpeg"
             alt="Sadya Hossain Sinthi"
           />
-          <p className="photo-note">
-            Replace <code>public/profile-placeholder.svg</code> with your own head-and-shoulders photo before submission.
-          </p>
+         
         </div>
 
         <div className="about-copy">

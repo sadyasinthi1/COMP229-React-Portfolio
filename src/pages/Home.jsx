@@ -14,22 +14,53 @@ export default function Home() {
 
       <section className="hero page-shell">
         <div className="hero-copy">
-          <p className="eyebrow">Data Analyst • Software Developer • AI Builder</p>
-          <h1>Turning complex data and ideas into useful digital products.</h1>
-          <p className="hero-text">
-            Welcome to my portfolio. I’m Sadya Hossain Sinthi, a Toronto-based technology professional with experience across data analytics, software development, machine learning and quality assurance.
+          <p className="eyebrow">
+            Data Analyst • Software Developer • AI Builder
           </p>
+
+          <h1>
+            Turning complex data and ideas into useful digital products.
+          </h1>
+
+          <p className="hero-text">
+            Welcome to my portfolio. I’m Sadya Hossain Sinthi, a
+            Toronto-based technology professional with experience across
+            data analytics, software development, machine learning and
+            quality assurance.
+          </p>
+
           <div className="button-row">
-            <Link className="button primary" to="/about">About Me</Link>
-            <Link className="button secondary" to="/projects">View Projects</Link>
+            <Link className="button primary" to="/about">
+              About Me
+            </Link>
+
+            <Link className="button secondary" to="/projects">
+              View Projects
+            </Link>
+
+            <a
+              className="button secondary"
+              href="https://www.sadyasinthi.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit My Primary Portfolio
+            </a>
           </div>
         </div>
 
         <aside className="mission-card" aria-label="Mission statement">
           <p className="eyebrow">Mission Statement</p>
-          <h2>Build technology that makes information easier to understand and act on.</h2>
+
+          <h2>
+            Build technology that makes information easier to understand
+            and act on.
+          </h2>
+
           <p>
-            I combine technical development with a practical business perspective to create accessible, reliable and user-focused solutions.
+            I combine technical development with a practical business
+            perspective to create accessible, reliable and user-focused
+            solutions.
           </p>
         </aside>
       </section>
@@ -39,10 +70,12 @@ export default function Home() {
           <strong>Data</strong>
           <span>Analytics, SQL, Power BI</span>
         </div>
+
         <div>
           <strong>Development</strong>
           <span>React, JavaScript, Node.js</span>
         </div>
+
         <div>
           <strong>AI / ML</strong>
           <span>Python, PyTorch, Scikit-learn</span>
